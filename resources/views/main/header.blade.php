@@ -39,6 +39,9 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
+    {{-- <div id="top-wrap">
+        @include('main.header1')
+    </div> --}}
     <div id="main-wrapper">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->

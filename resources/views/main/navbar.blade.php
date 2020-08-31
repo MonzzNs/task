@@ -3,11 +3,11 @@
         <!-- ============================================================== -->
         <!-- Logo -->
         <!-- ============================================================== -->
-        <div class="navbar-header">
+        {{-- <div class="navbar-header">
             <a class="navbar-brand" href="">
                 <h4 style="color: black;">Cafe</h4><h3 style="color: blue">24</h3> 
             </a>
-        </div>
+        </div> --}}
         <!-- ============================================================== -->
         <!-- End Logo -->
         <!-- ============================================================== -->
@@ -17,22 +17,70 @@
             <!-- ============================================================== -->
             <ul class="navbar-nav mr-auto">
                 <!-- This is  -->
-                <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li>
-                <li class="nav-item" style="margin-left: 5px; margin-top:15px;">
-                    {{-- <h6>ashdgjas</h6> --}}
-                    {{-- <a class="nav-lock waves-effect waves-dark ml-auto " href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a> --}}
-                    <h4>
-                        cafe24
-                    </h4>
+                {{-- <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li> --}}
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                   <h1 style="margin-bottom: -6px; margin-left:-2px"><i class="fa fa-home"></i></h1>
+                   <small  class="text-center">Home</small>
                 </li>
-                <li class="nav-item" style="margin-top:10px;">
-                    <h1>
-                    <span class="iconify" style="margin-top: px;" data-icon="mdi-toggle-switch" data-inline="false"></span>
-                </h1>
+                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:2px"><i class="fa fa-male"></i></h1>
+                    <small class="">Shirt</small>
                 </li>
-                <li class="nav-item" style="margin-left: 5px; margin-top:15px;">
-                    <h4>open</h4>
+                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:6px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Check-Out</small>
                 </li>
+                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-group"></i></h1>
+                    <small class="text-center">User</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:3px"><i class="fa fa-file-text"></i></h1>
+                    <small class="text-center">Report</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
+                    <small class="text-center">Shop</small>
+                </li>
+                {{-- <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1><i class="fa fa-shopping-cart"></i></h1>
+                    <p class="text-center">asddsa</p>
+                    <small class="text-center">asddsa</small>
+                </li> --}}
+                {{-- <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
+                    <h1><i class="fa fa-shopping-cart"></i></h1>
+                    <p class="text-center">asddsa</p>
+                    <small class="text-center">asddsa</small>
+                </li> --}}
+                
                 <!-- ============================================================== -->
                 <!-- Comment -->
                 <!-- ============================================================== -->
@@ -54,15 +102,6 @@
                     </form>
                 </li> --}}
             </ul>
-            <ul class="navbar-nav mr-auto">
-                <li>
-                    <li class="nav-item" style="margin-left: 5px; margin-top:15px;">
-                        <div class="">
-                            <p></p>
-                        </div>
-                    </li>
-                </li>
-            </ul>
             <ul class="navbar-nav my-lg-0">
                 <!-- ============================================================== -->
                 <!-- mega menu -->
@@ -73,28 +112,6 @@
                 <!-- ============================================================== -->
                 <!-- User profile and search -->
                 <!-- ============================================================== -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="30"></a>
-                    <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
-                        <span class="with-arrow"><span class="bg-primary"></span></span>
-                        <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
-                            <div class=""><img src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="60"></div>
-                            <div class="m-l-10">
-                                <h4 class="m-b-0">Steave Jobs</h4>
-                                <p class=" m-b-0"><a href="http://www.wrappixel.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5d3c4d7d0cbe5c2c8c4ccc98bc6cac8">[email&#160;protected]</a></p>
-                            </div>
-                        </div>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
-                        <div class="dropdown-divider"></div>
-                        <div class="p-l-30 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
-                    </div>
-                </li>
                 <!-- ============================================================== -->
                 <!-- User profile and search -->
                 <!-- ============================================================== -->
