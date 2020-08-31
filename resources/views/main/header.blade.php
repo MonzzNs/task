@@ -17,6 +17,7 @@
     <link href="{{ asset('assets/node_modules/calendar/dist/fullcalendar.css') }}" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="{{ asset('dist/css/style.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('asset/bootstrap/css/my.css') }}" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,12 +30,12 @@
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
-    <div class="preloader">
+    {{-- <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
             <p class="loader__label">Loading</p>
         </div>
-    </div>
+    </div> --}}
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
@@ -281,6 +282,7 @@
     <script src="{{ asset('assets/node_modules/moment/moment.js') }}"></script>
     <script src="{{ asset('assets/node_modules/calendar/dist/fullcalendar.min.js') }}"></script>
     <script src="{{ asset('assets/node_modules/calendar/dist/cal-init.js') }}"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 
 
