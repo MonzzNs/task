@@ -17,69 +17,67 @@
             <!-- ============================================================== -->
             <ul class="navbar-nav mr-auto">
                 <!-- This is  -->
-                {{-- <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li> --}}
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                   <h1 style="margin-bottom: -6px; margin-left:-2px"><i class="fa fa-home"></i></h1>
-                   <small  class="text-center">Home</small>
+                <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li>
+                <li class="nav-item" style="margin-left: 60px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-2px"><i class="fa fa-home"><small style="font-size: 15px"> Home</small></i></h3>
+                        {{-- <small class="text-center">Home</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:2px"><i class="fa fa-male"></i></h1>
-                    <small class="">Shirt</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:2px"><i class="fa fa-male"><small style="font-size: 15px"> Shirt</small></i></h3>
+                        {{-- <small class="">Shirt</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:6px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Check-Out</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:6px"><i class="fa fa-shopping-cart"><small style="font-size: 15px"> Cart</small></i></h3>
+                        {{-- <small class="text-center">CheckOut</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 70px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-group"></i></h1>
-                    <small class="text-center">User</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-group"><small style="font-size: 15px"> User</small></i></h3>
+                    {{-- <small class="text-center">User</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:3px"><i class="fa fa-file-text"></i></h1>
-                    <small class="text-center">Report</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:3px"><i class="fa fa-file-text"><small style="font-size: 15px"> File</small></i></h3>
+                    {{-- <small class="text-center">Report</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-envelope"><small style="font-size: 15px"> Email</small></i></h3>
+                    {{-- <small class="text-center">Shop</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-bar-chart-o"><small style="font-size: 15px"> Chart</small></i></h3>
+                    {{-- <small class="text-center">Shop</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-cloud"><small style="font-size: 15px"> Cloud</small></i></h3>
+                    {{-- <small class="text-center">Shop</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-file-pdf-o"><small style="font-size: 15px"> Report</small></i></h3>
+                    {{-- <small class="text-center">Shop</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
+                <li class="nav-item" style="margin-left: 45px;">
+                    <a href="" class="nav-link">
+                        <h3 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-code-fork"><small style="font-size: 15px"> Git</small></i></h3>
+                    {{-- <small class="text-center">Shop</small> --}}
+                    </a>
                 </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
-                </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
-                </li>
-                <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1 style="margin-bottom: -6px; margin-left:-7px"><i class="fa fa-shopping-cart"></i></h1>
-                    <small class="text-center">Shop</small>
-                </li>
-                {{-- <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1><i class="fa fa-shopping-cart"></i></h1>
-                    <p class="text-center">asddsa</p>
-                    <small class="text-center">asddsa</small>
-                </li> --}}
-                {{-- <li class="nav-item" style="margin-left: 55px; margin-top:15px;">
-                    <h1><i class="fa fa-shopping-cart"></i></h1>
-                    <p class="text-center">asddsa</p>
-                    <small class="text-center">asddsa</small>
-                </li> --}}
                 
                 <!-- ============================================================== -->
                 <!-- Comment -->
