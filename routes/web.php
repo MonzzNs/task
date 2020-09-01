@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main.header');
+    return view('main.login');
 });
 
 Route::get('/sidebarHome', 'SidebarController@sidebarHome')->name('sidebarHome');
