@@ -6,11 +6,11 @@
     </div>
     <!-- Sidebar scroll-->
     <div class="scroll-sidebar">
-        <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
                 <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="badge badge-cyan">OK</span>Korea Selatan</a>
                 </li>
+
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">RoboticGoMart</a>
                 <p class="text-center">http://i70care.co.id</p>
                 </li>
@@ -100,9 +100,9 @@
                         </div>
                       </div>
                 </li>
-                
-                <li class="nav-small-cap"></li>
                 <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="fa fa-circle-o text-success"></i><span class="hide-menu">Log Out</span></a></li>
+                
+                {{-- <li class="nav-small-cap"></li> --}}
             </ul>
         </nav>
         <!-- End Sidebar navigation -->

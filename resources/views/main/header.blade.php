@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 
 <!-- Mirrored from www.wrappixel.com/demos/admin-templates/elegant-admin/main/app-calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Apr 2018 18:44:50 GMT -->
@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon.png') }}">
-    <title>Elegant Admin Template - The Ultimate Multipurpose admin template</title>
+    <title>Uberando | {{ $tittlePage }}</title>
     <!-- Calendar CSS -->
     <link href="{{ asset('assets/node_modules/calendar/dist/fullcalendar.css') }}" rel="stylesheet" />
     <!-- Custom CSS -->
@@ -53,7 +53,43 @@
         <!-- ============================================================== -->
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
-        @include('main.sidebar')
+        {{-- <aside class="left-sidebar" style="margin-top: 66px;">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <span>Sidebar</span>
+                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+            </div>
+            <div class="scroll-sidebar">
+                <nav class="sidebar-nav">
+                    @yield('sidebar')
+                </nav>
+            </div>
+        </aside> --}}
+        {{-- @include('main.sidebar') --}}
+        <aside class="left-sidebar" style="margin-top: 66px;">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <span>Sidebar</span>
+                {{-- <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a> --}}
+                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+            </div>
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="badge badge-cyan">Admin</span> Admin1</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="app-calendar.html">View Profile</a></li>
+                                <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="fa fa-circle-o text-success"></i><span class="hide-menu">Log Out</span></a></li>
+                            </ul>
+                        </li>
+                        @yield('sidebar')
+                        {{-- <li class="nav-small-cap"></li> --}}
+                        {{-- <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="fa fa-circle-o text-success"></i><span class="hide-menu">Log Out</span></a></li> --}}
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
@@ -68,31 +104,34 @@
                 <!-- ============================================================== -->
                 <!-- Bread crumb and right sidebar toggle -->
                 <!-- ============================================================== -->
-                {{-- <div class="row page-titles">
+                <div class="row page-titles">
                     <div class="col-md-5 align-self-center">
-                        <h4 class="text-themecolor">Calendar</h4>
+                        <h4 class="text-themecolor">
+                            @yield('tittle')
+                        </h4>
                     </div>
                     <div class="col-md-7 align-self-center text-right">
                         <div class="d-flex justify-content-end align-items-center">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                                <li class="breadcrumb-item active">Calendar</li>
+                                <li class="breadcrumb-item active">{{ $tittlePage }}</li>
                             </ol>
-                            <button type="button" class="btn btn-info d-none d-lg-block m-l-15"><i class="fa fa-plus-circle"></i> Create New</button>
+                            {{-- <button type="button" class="btn btn-info d-none d-lg-block m-l-15"><i class="fa fa-plus-circle"></i> Create New</button> --}}
                         </div>
                     </div>
-                </div> --}}
+                </div>
                 <!-- ============================================================== -->
                 <!-- End Bread crumb and right sidebar toggle -->
                 <!-- ============================================================== -->
                 <!-- ============================================================== -->
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
-                {{-- <div class="row">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="">
-                                <div class="row">
+                            <div class="card-body">
+                                @yield('content')
+                                {{-- <div class="row">
                                     <div class="col-lg-3">
                                         <div class="card-body">
                                             <h4 class="card-title m-t-10">Drag & Drop Event</h4>
@@ -122,11 +161,11 @@
                                             <div id="calendar"></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
                 <!-- BEGIN MODAL -->
                 <div class="modal none-border" id="my-event">
                     <div class="modal-dialog">
@@ -252,9 +291,9 @@
         <!-- ============================================================== -->
         <!-- footer -->
         <!-- ============================================================== -->
-        <footer class="footer">
+        {{-- <footer class="footer">
             © 2018 Elegent Admin by wrappixel.com
-        </footer>
+        </footer> --}}
         <!-- ============================================================== -->
         <!-- End footer -->
         <!-- ============================================================== -->
