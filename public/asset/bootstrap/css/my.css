@@ -29,13 +29,35 @@
 }
 
 .title > h1{
-    margin-right: 400px;
+    margin-right: 310px;
+}
+
+.title2{
+    margin-top: -370px;
+    
+    width: 100%;
+    border-bottom: 1px solid white;
 }
 
 .footer{
     background-color: #ecf0f1;
     width: 100%;
     margin-bottom: -90px;
+}
+
+.item{
+    width: 100%;
+    
+}
+
+.item > h4{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.form-c{
+    background-color: unset;
 }
 
 input{
@@ -227,7 +249,7 @@ input {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 40px;
+	/* padding: 0 40px; */
 	text-align: center;
 	top: 0;
 	height: 100%;
