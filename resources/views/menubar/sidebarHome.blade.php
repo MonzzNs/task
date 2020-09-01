@@ -1,11 +1,11 @@
-@extends('main.header', ["activePage" => "Wear", "tittlePage" => "Wear | SideBar" ])
+@extends('main.header', ["activePage" => "Home", "tittlePage" => "Home" ])
 
 @section('sidebar')
 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">RoboticGoMart</a>
     <p class="text-center">http://i70care.co.id</p>
     </li>
     <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="hide-menu">Menu</span></a>
-        <ul aria-expanded="false" class="collapse">
+        <ul aria-expanded="false" class="collapse bg-light">
             <li><a href="app-calendar.html">Calendar</a></li>
             <li><a href="app-chat.html">Chat app</a></li>
             <li><a href="app-ticket.html">Support Ticket</a></li>

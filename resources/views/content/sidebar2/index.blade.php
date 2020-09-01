@@ -1,4 +1,4 @@
-@extends('main.header',  ["activePage" => "Wear", "tittlePage" => "Wear | Supreme" ])
+@extends('main.header',  ["activePage" => "Wear", "titlePage" => "Wear | Supreme" ])
 
 @section('tittle')
     Wear Data (Supreme)

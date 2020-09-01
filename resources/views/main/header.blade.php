@@ -65,9 +65,9 @@
             </div>
         </aside> --}}
         {{-- @include('main.sidebar') --}}
-        <aside class="left-sidebar" style="margin-top: 66px;">
-            <div class="d-flex no-block nav-text-box align-items-center">
-                <span>Sidebar</span>
+        <aside class="left-sidebar shadow-lg" style="margin-top: 50px;background: linear-gradient(to bottom, #00ffff 0%, #ff66cc 100%);">
+            <div class="d-flex no-block nav-text-box">
+                <span style="color: black">Sidebar</span>
                 {{-- <a class="nav-lock waves-effect waves-dark ml-auto hidden-md-down" href="javascript:void(0)"><i class="mdi mdi-toggle-switch"></i></a> --}}
                 <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
             </div>
@@ -76,7 +76,7 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="badge badge-cyan">Admin</span> Admin1</a>
-                            <ul aria-expanded="false" class="collapse">
+                            <ul aria-expanded="false" class="collapse bg-light">
                                 <li><a href="app-calendar.html">View Profile</a></li>
                                 <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="fa fa-circle-o text-success"></i><span class="hide-menu">Log Out</span></a></li>
                             </ul>
@@ -114,7 +114,7 @@
                         <div class="d-flex justify-content-end align-items-center">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                                <li class="breadcrumb-item active">{{ $tittlePage }}</li>
+                                <li class="breadcrumb-item">{{ $tittlePage }}</li>
                             </ol>
                             {{-- <button type="button" class="btn btn-info d-none d-lg-block m-l-15"><i class="fa fa-plus-circle"></i> Create New</button> --}}
                         </div>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <!-- BEGIN MODAL -->
-                <div class="modal none-border" id="my-event">
+                {{-- <div class="modal none-border" id="my-event">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -218,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- END MODAL -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
@@ -227,7 +227,7 @@
                 <!-- Right sidebar -->
                 <!-- ============================================================== -->
                 <!-- .right-sidebar -->
-                <div class="right-sidebar">
+                {{-- <div class="right-sidebar">
                     <div class="slimscrollright">
                         <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
                         <div class="r-panel-body">
@@ -240,7 +240,7 @@
                                 <li><a href="javascript:void(0)" data-skin="skin-purple" class="purple-theme">5</a></li>
                                 <li><a href="javascript:void(0)" data-skin="skin-megna" class="megna-theme">6</a></li>
                                 <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
-                                <li><a href="javascript:void(0)" data-skin="skin-default-dark" class="default-dark-theme working">7</a></li>
+                                <li><a href="javascript:void(0)" data-skin="skin-default-dark" class="default-dark-theme ">7</a></li>
                                 <li><a href="javascript:void(0)" data-skin="skin-green-dark" class="green-dark-theme">8</a></li>
                                 <li><a href="javascript:void(0)" data-skin="skin-red-dark" class="red-dark-theme">9</a></li>
                                 <li><a href="javascript:void(0)" data-skin="skin-blue-dark" class="blue-dark-theme">10</a></li>
@@ -276,7 +276,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- ============================================================== -->
                 <!-- End Right sidebar -->
                 <!-- ============================================================== -->
