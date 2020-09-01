@@ -326,6 +326,7 @@
     <script src="{{ asset('assets/node_modules/calendar/dist/cal-init.js') }}"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="{{ asset('asset/bootstrap/js/my.js') }}"></script>
+    @stack('js')
 </body>
 
 
