@@ -15,10 +15,10 @@
             <!-- ============================================================== -->
             <!-- toggle and nav items -->
             <!-- ============================================================== -->
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto menu1">
                 <!-- This is  -->
                 <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light" href="javascript:void(0)"><i class="ti-menu"></i></a></li>
-                <li class="nav-item" style="margin-left: 60px;">
+                <li class="nav-item" style="margin-left: 60px; border:1px solid black">
                     <a href="" class="nav-link">
                         <h3 style="margin-bottom: -6px; margin-left:-2px"><i class="fa fa-home"><small style="font-size: 15px"> Home</small></i></h3>
                         {{-- <small class="text-center">Home</small> --}}
@@ -78,27 +78,7 @@
                     {{-- <small class="text-center">Shop</small> --}}
                     </a>
                 </li>
-                
-                <!-- ============================================================== -->
-                <!-- Comment -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- End Comment -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Messages -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- End Messages -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Search -->
-                <!-- ============================================================== -->
-                {{-- <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
-                    <form class="app-search">
-                        <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
-                    </form>
-                </li> --}}
+
             </ul>
             <ul class="navbar-nav my-lg-0">
                 <!-- ============================================================== -->
